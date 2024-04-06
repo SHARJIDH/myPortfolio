@@ -4,19 +4,19 @@ import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Website Design",
-    projects: 76,
+    projects: 2,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
     name: "Mobile App Design",
-    projects: 63,
+    projects: 1,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
+    name: "AI/ML",
+    projects: 1,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
@@ -29,25 +29,26 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Dev-post hacakthon",
+    tenure: "Feb 2024 - Mar 2024",
+    role: "Real Time Video Call Application ",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Developed a real-time video call app using React and WebRTC, enabling seamless peer to-peer communication with high-quality video and audio streaming. ",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "Dev-post hacakathons",
+    tenure: "Jan 2024 - Feb 2024",
+    role: "Fit-Friend",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "A Friend for all health problem built using react-native and Gemini-Api for Devpost hackathon",
   },
+  
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "Self-Project",
+    tenure: "Oct 2023 - Jan 2024",
+    role: "Real Time Chat-app",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Developed a real-time chat app using React, Node.js, Socket.io, and MongoDB. ",
   },
 ];
 

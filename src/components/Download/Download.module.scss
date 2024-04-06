@@ -1,0 +1,29 @@
+/* download.module.scss */
+
+.downloadButton {
+    border: 2px solid #007bff;
+
+    padding: 10px 20px;
+    margin-bottom: 8px;
+    background-color: #007bff;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+
+    border-radius: 5px;
+
+}
+
+.downloadButton:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    border-color: #0056b3;
+    /* Darker blue border on hover */
+}

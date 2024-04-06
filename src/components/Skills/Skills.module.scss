@@ -1,0 +1,85 @@
+@import '../../styles/contants.scss';
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    position: relative;
+
+    .heading {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        /* Center the heading horizontally */
+        top: 10px;
+        /* Adjust top position as needed */
+        color: white;
+    }
+
+    .skillName {
+        color: white;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .container {
+        padding-top: 9vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 20px;
+
+        .skillBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 25px;
+            background-color: #050505;
+            border: 1px solid $secondary-white;
+            flex: 1;
+            min-width: 150px;
+            max-width: 150px;
+        }
+
+        /* Icon styles */
+        .react {
+            background-color: #050505;
+            color: blue;
+        }
+
+        .node {
+            color: green;
+        }
+
+        .express {
+            color: greenyellow;
+        }
+
+        .cplusplus {
+            color: white;
+            font-size: x-large;
+        }
+
+        .mongodb {
+            color: green;
+        }
+
+        .react_native {
+            color: blue;
+        }
+
+        .tensorflow {
+            color: orange;
+        }
+
+        .python {
+            color: yellow;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            justify-content: center;
+        }
+    }
+}
