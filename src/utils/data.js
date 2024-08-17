@@ -23,8 +23,8 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "I will help you with finding a solution and solve your problem, I use process design to create digital products. Besides that also help their business.",
+  // "We use process design to create digital products. Besides that also help their business",
 ];
 
 export const workExp = [
@@ -42,7 +42,7 @@ export const workExp = [
     detail:
       "A Friend for all health problem built using react-native and Gemini-Api for Devpost hackathon",
   },
-  
+
   {
     place: "Self-Project",
     tenure: "Oct 2023 - Jan 2024",

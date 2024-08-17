@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
+import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -16,6 +17,7 @@ const Header = () => {
     setMenuOpened
   })
   return (
+
     <motion.div
       initial="hidden"
       whileInView="show"
@@ -24,7 +26,9 @@ const Header = () => {
       className={`paddings ${css.wrapper}`}
       style={{ boxShadow: headerShadow }}
     >
+
       <div className={`flexCenter innerWidth ${css.container}`}>
+        {/* <BackgroundGradientAnimation> */}
         <div className={css.name}>Shaik Sharjidh</div>
         <ul
           ref={menuRef}
@@ -55,8 +59,11 @@ const Header = () => {
         >
           <BiMenuAltRight size={30} />
         </div>
+        {/* </BackgroundGradientAnimation> */}
       </div>
+
     </motion.div>
+
   );
 };
 
