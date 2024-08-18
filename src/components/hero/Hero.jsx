@@ -8,14 +8,15 @@ import { BackgroundGradientAnimation } from '../ui/background-gradient-animation
 const Hero = () => {
     const documentUrl = "https://drive.google.com/file/d/1uAIVyX6Bn6Zsj0XhWfaW63ehax8bDkpL/view?usp=sharing";
     return (
-        <BackgroundGradientAnimation>
-            <section className={`paddings ${css.wrapper}`}>
+
+        <section className={` ${css.wrapper}`}>
+            <BackgroundGradientAnimation>
                 <motion.div
                     variants={staggerContainer}
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: false, amount: 0.25 }}
-                    className={`innerWidth ${css.container}`}>
+                    className={`innerWidth paddings ${css.container}`}>
                     <div className={css.upperElements}>
                         <motion.span
                             variants={fadeIn("right", "tween", 0.2, 1)}
@@ -64,9 +65,9 @@ const Hero = () => {
                         </motion.div>
                     </div>
                 </motion.div>
-
-            </section>
-        </BackgroundGradientAnimation>
+            </BackgroundGradientAnimation>
+        </section>
+        // </BackgroundGradientAnimation>
     )
 }
 

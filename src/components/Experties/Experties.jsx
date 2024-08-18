@@ -9,14 +9,14 @@ import { BackgroundGradientAnimation } from "../ui/background-gradient-animation
 const Experties = () => {
 
   return (
-    <BackgroundGradientAnimation>
-      <motion.section
-        variants={staggerContainer}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
-        className={css.wrapper}
-      >
+
+    <motion.section
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={css.wrapper}
+    ><BackgroundGradientAnimation>
 
         <a className="anchor" id="experties"></a>
         <div
@@ -63,8 +63,9 @@ const Experties = () => {
           </div> */}
           </motion.div>
         </div>
-      </motion.section>
-    </BackgroundGradientAnimation>
+      </BackgroundGradientAnimation>
+    </motion.section>
+
   );
 };
 

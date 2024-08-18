@@ -7,17 +7,18 @@ import { BackgroundGradientAnimation } from "../ui/background-gradient-animation
 
 const Works = () => {
   return (
-    <BackgroundGradientAnimation>
-      <motion.section
-        variants={staggerChildren}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
-        className={`paddings ${css.wrapper}`}
-      >
+
+    <motion.section
+      variants={staggerChildren}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={` ${css.wrapper}`}
+    >
+      <BackgroundGradientAnimation>
 
         <a className="anchor" id="work"></a>
-        <div className={`flexCenter innerWidth ${css.container}`}>
+        <div className={`flexCenter paddings innerWidth ${css.container}`}>
           <span className="primaryText ypaddings">My work experience</span>
           <div className={`flexCenter ${css.experiences}`}>
             {workExp.map((exp, i) => {
@@ -47,8 +48,8 @@ const Works = () => {
 
           </div>
         </div>
-      </motion.section>
-    </BackgroundGradientAnimation>
+      </BackgroundGradientAnimation>
+    </motion.section>
   );
 };
 
